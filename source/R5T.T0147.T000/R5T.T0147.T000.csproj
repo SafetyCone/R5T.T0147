@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.0.1</Version>
+    <Authors>DCoats</Authors>
+    <Company>Rivet</Company>
+    <Description>IServiceAction&lt;T&gt; abstractions library.</Description>
+    <Copyright>Copyright (c) Rivet 2022</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/SafetyCone/R5T.T0147.git</RepositoryUrl>
+    <PackageTags>Dependency Injection;ServiceAction;Services</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.NG0002\source\R5T.NG0002\R5T.NG0002.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0142\source\R5T.T0142\R5T.T0142.csproj" />
+  </ItemGroup>
+
+</Project>
