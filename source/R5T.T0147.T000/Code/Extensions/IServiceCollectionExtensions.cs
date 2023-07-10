@@ -10,7 +10,7 @@ namespace System
     public static class IServiceCollectionExtensions
     {
         /// <summary>
-        /// Calls the <see cref="IServiceAction{TService}.Run(IServiceCollection)"/> method on the service collection.
+        /// Calls the <see cref="IServiceAction.Run(IServiceCollection)"/> method on the service collection.
         /// </summary>
         public static IServiceCollection RunServiceAction<TService>(this IServiceCollection services, IServiceAction<TService> serviceAction)
         {

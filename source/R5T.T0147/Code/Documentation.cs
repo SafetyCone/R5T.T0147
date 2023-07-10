@@ -4,7 +4,7 @@ using System;
 namespace R5T.T0147
 {
 	/// <summary>
-	/// IServiceAction<T> library.
+	/// IServiceAction&lt;T&gt; library.
 	/// </summary>
 	public static class Documentation
 	{

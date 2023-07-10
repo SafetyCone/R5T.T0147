@@ -11,7 +11,7 @@ namespace R5T.T0147
 	public partial interface IServiceActionOperator : IFunctionalityMarker
 	{
         /// <summary>
-        /// Calls the <see cref="IServiceAction{TService}.Run(IServiceCollection)"/> method on the service collection.
+        /// Calls the <see cref="IServiceAction.Run(IServiceCollection)"/> method on the service collection.
         /// </summary>
         public IServiceCollection RunServiceAction<TService>(IServiceCollection services, IServiceAction<TService> serviceAction)
         {
